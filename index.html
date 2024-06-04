@@ -1,11 +1,73 @@
+// codigo página web
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Analisador fisioterapeutico</title>
+    <style>
+        body{
+            background: linear-gradient(to right, #87ceeb, #ffffff);
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td{
+            padding: 10px;
+            text-align: left;
+            font-size: 20px;
+        }
+        th{
+            background-color: #f2f2f2;
+        }
+        h2{
+            text-decoration: underline;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Análise do paciente</h1>
+    <h2>Arthur Mendes</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Tempo Decorrido:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Tempo Total:</th>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <th>Força Lida:</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <th>Categoria de Força:</th>
+                </tr>
+            </tbody>
+        </tbody>
+    </table>
+    <div class="button-container">
+        <button onclick="window.print()">Imprimir</button>
+
+    </div>
 </body>
 </html>
